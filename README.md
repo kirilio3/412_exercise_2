@@ -1,7 +1,6 @@
-# Template: template-ros
+# Duckiebot ROS Assignment
 
-This template provides a boilerplate repository
-for developing ROS-based software in Duckietown.
+This repository contains the code and documentation for the ROS-based Duckiebot assignment. We implemented odometry using wheel encoders, and making the Duckiebot follow a specific path while utilizing ROS services and visual feedback via LED lights.
 
 **NOTE:** If you want to develop software that does not use
 ROS, check out [this template](https://github.com/duckietown/template-basic).
