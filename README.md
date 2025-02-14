@@ -1,17 +1,22 @@
 # Duckiebot ROS Assignment
 
-This repository contains the code and documentation for the ROS-based Duckiebot assignment. We implemented odometry using wheel encoders, and making the Duckiebot follow a specific path while utilizing ROS services and visual feedback via LED lights.
+This repository contains the code and documentation for the ROS-based Duckiebot assignment. We familiarized ourself with ROS and duckiebot functionalities and implemented various functions including odometry using wheel encoders, rotating the robot, and making the Duckiebot follow a specific path while utilizing ROS services and visual feedback via LED lights.
 
 **NOTE:** If you want to develop software that does not use
 ROS, check out [this template](https://github.com/duckietown/template-basic).
 
 
-## How to use it
+## Part I: Getting Comfortable with ROS
 
-### 1. Fork this repository
+### 1. Objective
 
-Use the fork button in the top-right corner of the github page to fork this template repository.
+Understand and work with the basic concepts of ROS, such as nodes, topics, services, messages, and bags.
 
+### Tasks Completed
+#### ROS Wiki Concepts:
+
+Nodes, Topics, Services, Messages, and Bags were explored and explained in detail.
+Communication setup between nodes was established and tested.
 
 ### 2. Create a new repository
 
