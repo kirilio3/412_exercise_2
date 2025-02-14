@@ -16,6 +16,7 @@ Implemented the first ROS publisher and subscriber to communicate between nodes.
 ### 3. Basic Operations with Camera:
 Created a subscriber for the camera feed.
 Processed the image: converted to grayscale, annotated with robot's hostname and image size.
+`camera_processing_node.py`
 Published the annotated image on a custom topic.
 Used rqt_image_view to visualize the image and included a screenshot.
 
@@ -28,13 +29,13 @@ Subscribed to data from wheel encoders and published it for control.
 ### 2. Straight Line Task:
 
 Successfully moved the Duckiebot forward and backward by 1.25 meters, measured deviations from desired location.
-
+`straight_line_task.py`
 Answered questions about speed and deviations.
 
 ### 3. Rotation Task:
 
 Rotated the Duckiebot 90 degrees clockwise and then back to 0 degrees counterclockwise.
-
+`rotate_node.py`
 Observed and analyzed deviations, discussed possible causes.
 
 ### 4. Bag File Creation:
